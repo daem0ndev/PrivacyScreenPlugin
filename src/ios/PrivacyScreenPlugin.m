@@ -1,3 +1,14 @@
+/**
+ * PrivacyScreenPlugin.m
+ * Created by Tommy-Carlos Williams on 18/07/2014
+ * Copyright (c) 2014 Tommy-Carlos Williams. All rights reserved.
+ * MIT Licensed
+ */
+ /**
+ * original code for PrivacyScreenPlugin is removed because of blackscreen issue in iphone 5 & iphone 6
+ * meanwhile, introduce source code from https://github.com/lifeofcoding/cordova-blur-app-privacy-screen/blob/master/src/ios/BlurPrivacyScreen.m
+ * and the code is under MIT Licensed
+ */
 #import "AppDelegate.h"
 
 @interface AppDelegate (PrivacyScreenPlugin) {}

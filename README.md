@@ -7,16 +7,13 @@ This is a lovely feature for most apps, but if your app displays sensitive infor
 
 This plugin flags your app so that it doesn't show your users' sensitive data in the task switcher. It sets the [FLAG_SECURE](http://developer.android.com/reference/android/view/WindowManager.LayoutParams.html#FLAG_SECURE) flag in Android (which also prevents manual screenshots from being taken) and hides the window in iOS.
 
-On iOS this plugin will try to show your splashscreen in the app switcher. It will search for splashscreens prefixed by `Default` or the value of the key `UILaunchImageFile` in your .plist file.
-If it fails to find a splashscreen for a specific device or orientation (portrait or landscape), a black screen is shown instead.
-
 Installation
 ------------
 
 For Cordova 3.x.x:
 
-1. To add this plugin just type: `cordova plugin add cordova-plugin-privacyscreen` or `phonegap local plugin add cordova-plugin-privacyscreen`
-2. To remove this plugin type: `cordova plugin remove cordova-plugin-privacyscreen` or `phonegap local plugin remove cordova-plugin-privacyscreen`
+1. To add this plugin just type: `cordova plugin add cordova-plugin-simpleprivacyscreen` or `phonegap local plugin add cordova-plugin-simpleprivacyscreen`
+2. To remove this plugin type: `cordova plugin remove cordova-plugin-simpleprivacyscreen` or `phonegap local plugin remove cordova-plugin-simpleprivacyscreen`
 
 Usage:
 ------

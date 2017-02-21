@@ -7,8 +7,7 @@ This is a lovely feature for most apps, but if your app displays sensitive infor
 
 This plugin flags your app so that it doesn't show your users' sensitive data in the task switcher. It sets the [FLAG_SECURE](http://developer.android.com/reference/android/view/WindowManager.LayoutParams.html#FLAG_SECURE) flag in Android (which also prevents manual screenshots from being taken) and hides the window in iOS.
 
-*** this repository is fork from https://github.com/devgeeks/PrivacyScreenPlugin/blob/master/src/ios/PrivacyScreenPlugin.m, and meanwhile
-to add some new modify to solve black screen issue in IOS device.
+*** this repository is fork from https://github.com/devgeeks/PrivacyScreenPlugin and not change anything for android part of code.
 
 The original source code for IOS introduce black screen issue with iphone 5 and iphone 6, so source code for ios privacy screen from  
 https://github.com/lifeofcoding/cordova-blur-app-privacy-screen/blob/master/src/ios/BlurPrivacyScreen.m (with MIT license) is used.

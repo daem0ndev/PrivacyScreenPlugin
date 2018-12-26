@@ -17,8 +17,8 @@ Installation
 
 For Cordova 3.x.x:
 
-1. To add this plugin just type: `cordova plugin add cordova-plugin-simpleprivacyscreen` or `phonegap local plugin add cordova-plugin-simpleprivacyscreen`
-2. To remove this plugin type: `cordova plugin remove cordova-plugin-simpleprivacyscreen` or `phonegap local plugin remove cordova-plugin-simpleprivacyscreen`
+1. To add this plugin just type: `cordova plugin add cordova-plugin-privacyscreen-fix` or `phonegap local plugin add cordova-plugin-privacyscreen-fix`
+2. To remove this plugin type: `cordova plugin remove cordova-plugin-privacyscreen-fix` or `phonegap local plugin remove cordova-plugin-privacyscreen-fix`
 
 Usage:
 ------

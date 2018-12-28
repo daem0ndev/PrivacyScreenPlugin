@@ -20,7 +20,7 @@
 - (void)applicationWillResignActive:(UIApplication *)application {
     self.window.backgroundColor = [UIColor clearColor];
 
-    UIBlurEffect *blurEffect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleExtraLight];
+    UIBlurEffect *blurEffect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleRegular];
     UIVisualEffectView *blurEffectView = [[UIVisualEffectView alloc] initWithEffect:blurEffect];
     blurEffectView.frame = self.window.bounds;
     blurEffectView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
@@ -42,7 +42,7 @@
     UIView *blurEffectView = [self.window viewWithTag:1234];
 
     // fade away colour view from main view
-    [UIView animateWithDuration:0.5 animations:^{
+    [UIView animateWithDuration:0.2 animations:^{
         blurEffectView.alpha = 0;
     } completion:^(BOOL finished) {
         // remove when finished fading
